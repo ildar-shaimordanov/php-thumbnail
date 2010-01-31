@@ -1,0 +1,111 @@
+/**
+ *
+ * General styles
+ *
+ */
+html, body	{
+	border: none;
+	color: #000;
+	font-family: Tahoma, Verdana, 'Courier New', sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1	{
+	color: #39c;
+	text-align: center;
+}
+
+a	{
+	color: #39c;
+}
+
+/**
+ *
+ * Table Of Contents
+ *
+ */
+#TOC	{
+	border: 1px solid #39c;
+	float: left;
+	width: 300px;
+}
+#TOC h2	{
+	background-color: #39c;
+	color: #fff;
+	margin-top: 0;
+	padding: 5px;
+	text-align: center;
+}
+#TOC ul	{
+	font-weight: bold;
+	list-style-type: circle;
+	margin-left: 0;
+	padding-left: 15px;
+}
+#TOC ul li	{
+	padding-left: 0;
+}
+#EXAMPLE	{
+	color: #ff0000;
+	font-style: italic;
+}
+
+/**
+ *
+ * Contents elements styles
+ *
+ */
+#BODY	{
+	margin-left: 310px;
+}
+
+#BODY h2	{
+	background-color: #39c;
+	color: #fff;
+	margin: 0;
+	padding: 5px;
+}
+
+#BODY h3	{
+	border-bottom: 1px solid #39c;
+	color: #39c;
+}
+
+#BODY ul	{
+	list-style-type: lower-roman;
+}
+
+.NOTE	{
+	background-color: #eee;
+	border: 1px dashed #39c;
+	font-style: italic;
+	padding: 10px;
+}
+
+pre, .CODE	{
+	background-color: #eee;
+	border: 1px dashed #39c;
+	margin: 5px;
+	padding: 10px;
+}
+
+.UP	{
+	margin: 10px;
+	margin-right: 0;
+	text-align: right;
+}
+.UP a	{
+	border-bottom: 1px dotted #39c;
+	color: #000;
+	font-weight: bold;
+	padding: 0 5px;
+	text-decoration: none;
+}
+
+#COPYRIGHT	{
+	padding: 10px;
+	text-align: right;
+}
